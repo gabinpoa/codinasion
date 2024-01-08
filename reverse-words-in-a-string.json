@@ -1,0 +1,15 @@
+{
+  "slug": "reverse-words-in-a-string",
+  "title": "Reverse Words In A String",
+  "description": "\n## Write a program to reverse words in a string\n\n```\r\nInput  : \"Hello World\"\r\nOutput : \"World Hello\"\r\n```\n\n---\n",
+  "trackId": 4997,
+  "lastUpdated": "2024-01-06T05:06:37Z",
+  "contributors": [
+    "andrysatko",
+    "harshraj8843"
+  ],
+  "typescript": "function reverseWords(input: string): string {\n    const words = input.split(' ');\n    const reversedWords = words.reverse().join(' ');\n    return reversedWords;\n}\n\nconst input = \"Hello World\";\nconsole.log(reverseWords(input))\n",
+  "languages": [
+    "typescript"
+  ]
+}
